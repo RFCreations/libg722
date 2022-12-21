@@ -43,7 +43,7 @@
 #define TRUE (!FALSE)
 #endif
 
-static __inline__ int16_t saturate(int32_t amp)
+static inline int16_t saturate(int32_t amp)
 {
     int16_t amp16;
 
